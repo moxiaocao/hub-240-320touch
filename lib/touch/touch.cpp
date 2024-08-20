@@ -6,7 +6,7 @@
 #define CLK_PIN  11
 #define CS_PIN   7
 
-XPT2046_Bitbang touchscreen(MOSI_PIN, MISO_PIN, CLK_PIN, CS_PIN,240,320);
+XPT2046_Bitbang touchscreen(MOSI_PIN, MISO_PIN, CLK_PIN, CS_PIN,320,240);
 TouchPoint touch;  
 
 void touch_init(void) {
